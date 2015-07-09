@@ -7,6 +7,8 @@ import numpy as np
 import time
 from spar_utils import filtered_stiffeners_table
 
+# Hi world!
+
 class optimizationSpar(Assembly):
     # variables 
     wall_thickness = Array(iotype='in', units='m',desc = 'wall thickness of each section')
